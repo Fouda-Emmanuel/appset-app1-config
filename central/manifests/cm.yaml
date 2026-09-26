@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app1-mumbai-cm
+  namespace: app1-mumbai-ns
+data:
+  index.html: |
+    <html>
+      <head><title>AYE SAY GANG | Canada</title></head>
+      <body>
+        <h1>ApplicationSets Lab</h1>
+        <p>Region: Central (ca-central-1)</p>
+        <p>This deployment serves users in Canada.</p>
+      </body>
+    </html>
