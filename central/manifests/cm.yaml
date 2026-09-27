@@ -1,8 +1,8 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: app1-mumbai-cm
-  namespace: app1-mumbai-ns
+  name: app1-central-cm
+  namespace: app1-central-ns
 data:
   index.html: |
     <html>
