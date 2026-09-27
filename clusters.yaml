@@ -1,0 +1,9 @@
+- name: app1-nvirginia
+  region: nvirginia
+  cluster: in-cluster
+  namespace: app1-nvirginia-ns
+
+- name: app1-central
+  region: central
+  cluster: thugger@cluster-central.ca-central-1.eksctl.io
+  namespace: app1-central-ns
